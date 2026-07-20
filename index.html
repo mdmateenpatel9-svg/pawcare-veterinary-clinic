@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0F766E" />
+
+    <!-- Primary SEO -->
+    <title>PawCare Veterinary Clinic | Compassionate Vet Care in Austin, TX</title>
+    <meta name="description" content="PawCare Veterinary Clinic in Austin, Texas offers wellness exams, vaccinations, surgery, dental care & emergency services for dogs, cats and exotic pets. Book your visit today." />
+    <meta name="keywords" content="veterinary clinic Austin, vet near me, pet vaccinations Austin, animal hospital Texas, emergency vet Austin, pet surgery, dog cat vet clinic" />
+    <meta name="author" content="Mateen Sites" />
+    <link rel="canonical" href="https://pawcare-vet-demo.netlify.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PawCare Veterinary Clinic | Compassionate Care for Every Paw" />
+    <meta property="og:description" content="Trusted veterinary care for dogs, cats, birds and exotic pets using modern technology and experienced veterinarians in Austin, TX." />
+    <meta property="og:image" content="https://picsum.photos/seed/pawcare-hero-vet/1200/630" />
+    <meta property="og:url" content="https://pawcare-vet-demo.netlify.app/" />
+    <meta property="og:site_name" content="PawCare Veterinary Clinic" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PawCare Veterinary Clinic | Compassionate Care for Every Paw" />
+    <meta name="twitter:description" content="Trusted veterinary care for dogs, cats, birds and exotic pets in Austin, TX. Same-day appointments available." />
+    <meta name="twitter:image" content="https://picsum.photos/seed/pawcare-hero-vet/1200/630" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VeterinaryCare",
+      "name": "PawCare Veterinary Clinic",
+      "image": "https://picsum.photos/seed/pawcare-hero-vet/1200/630",
+      "description": "Compassionate veterinary care for dogs, cats, birds and exotic pets using modern technology and experienced veterinarians.",
+      "telephone": "(555) 234-7810",
+      "email": "hello@pawcarevet.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "125 Maple Street",
+        "addressLocality": "Austin",
+        "addressRegion": "TX",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday"],
+          "opens": "09:00",
+          "closes": "15:00"
+        }
+      ],
+      "priceRange": "$$",
+      "sameAs": []
+    }
+    </script>
+  </head>
+  <body class="font-body bg-white text-ink antialiased">
+    <div id="root"></div>
+
+    <!-- Static hidden form so Netlify's build bot can detect the "appointment" form. -->
+    <form name="appointment" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="text" name="petName" />
+      <input type="tel" name="phone" />
+      <input type="email" name="email" />
+      <select name="service"><option>General</option></select>
+      <input type="date" name="date" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
