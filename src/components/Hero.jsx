@@ -78,7 +78,7 @@ export default function Hero() {
         >
           <div className="relative rounded-4xl overflow-hidden shadow-premium aspect-[4/5] sm:aspect-[5/4.2]">
             <img
-              src="https://picsum.photos/seed/pawcare-hero-vet/1000/1000"
+              src=src="/hero.jpg"
               alt="A smiling veterinarian examining a happy golden retriever inside a bright, modern clinic"
               className="w-full h-full object-cover"
               loading="eager"
