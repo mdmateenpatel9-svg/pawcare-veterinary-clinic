@@ -78,7 +78,7 @@ export default function Hero() {
         >
           <div className="relative rounded-4xl overflow-hidden shadow-premium aspect-[4/5] sm:aspect-[5/4.2]">
             <img
-              src=src="/hero.jpg"
+              src="https://cdn.postimage.me/2026/07/21/IMG_20260719_224455.png"
               alt="A smiling veterinarian examining a happy golden retriever inside a bright, modern clinic"
               className="w-full h-full object-cover"
               loading="eager"
