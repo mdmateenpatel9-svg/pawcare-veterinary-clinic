@@ -22,7 +22,7 @@ export default function Facilities() {
             className="lg:col-span-3 relative rounded-4xl overflow-hidden shadow-premium aspect-[16/11] lg:aspect-auto lg:h-full min-h-[340px]"
           >
             <img
-              src="https://picsum.photos/seed/pawcare-surgery-room/1100/850"
+             src="https://cdn.postimage.me/2026/07/26/6f88b4820e9aeb3e07f16888baae3a12b1866a780fedd10e0dfab9f3c40502d7.png" alt="6f88b4820e9aeb3e07f16888baae3a12b1866a780fedd10e0dfab9f3c40502d7" border="0">
               alt="Modern veterinary surgery room with premium medical equipment and clean interior"
               className="w-full h-full object-cover"
               loading="lazy"
