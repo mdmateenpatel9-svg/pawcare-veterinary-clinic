@@ -50,7 +50,7 @@ export default function WhyChooseUs() {
         <Reveal className="relative">
           <div className="relative rounded-4xl overflow-hidden shadow-premium aspect-[4/5]">
             <img
-              src="https://picsum.photos/seed/pawcare-cat-exam/900/1100"
+              src="https://cdn.postimage.me/2026/07/26/file_00000000bcec8207b410926cc62e9ecd.png"
               alt="Professional veterinarian examining a healthy cat inside a modern treatment room"
               className="w-full h-full object-cover"
               loading="lazy"
