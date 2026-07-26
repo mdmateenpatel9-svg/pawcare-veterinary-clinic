@@ -9,7 +9,7 @@ export default function About() {
         <Reveal className="relative order-2 lg:order-1">
           <div className="relative rounded-4xl overflow-hidden shadow-premium aspect-[4/3]">
             <img
-              src="https://picsum.photos/seed/pawcare-reception/900/700"
+              src="https://cdn.postimage.me/2026/07/26/file_000000001314820ea9e9deef43f6ebf3.png"
               alt="Modern veterinary clinic reception with an elegant waiting area and indoor plants"
               className="w-full h-full object-cover"
               loading="lazy"
