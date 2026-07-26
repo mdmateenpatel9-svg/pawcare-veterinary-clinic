@@ -4,10 +4,8 @@ import { team } from '../data/content.js'
 import { SectionHeading } from './Reveal.jsx'
 
 const imageSeeds = {
-  const imageSeeds = {
   'team-1': 'https://cdn.postimage.me/2026/07/26/0b9cb1005de34022050cf267045e97c6c63aeeb959b03bb7f037849be6cebafe.png',
   'team-2': 'https://iili.io/CehbasV.png'
-  }
 }
 
 export default function Team() {

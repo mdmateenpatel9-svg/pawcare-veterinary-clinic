@@ -13,7 +13,7 @@ export default function AppointmentCTA() {
           className="relative rounded-4xl sm:rounded-5xl overflow-hidden bg-primary-900 shadow-premium"
         >
           <img
-            src="https://picsum.photos/seed/pawcare-family-dog-cta/1600/700"
+            src="https://iili.io/CehmdBV.png"
             alt="A happy family walking with their healthy dog outside a modern veterinary clinic at golden hour"
             className="absolute inset-0 w-full h-full object-cover opacity-30"
             loading="lazy"
