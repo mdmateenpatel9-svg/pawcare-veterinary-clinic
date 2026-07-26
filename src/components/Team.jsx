@@ -4,8 +4,10 @@ import { team } from '../data/content.js'
 import { SectionHeading } from './Reveal.jsx'
 
 const imageSeeds = {
-  'team-1': 'pawcare-vet-emily',
-  'team-2': 'pawcare-vet-marcus'
+  const imageSeeds = {
+  'team-1': 'https://cdn.postimage.me/2026/07/26/0b9cb1005de34022050cf267045e97c6c63aeeb959b03bb7f037849be6cebafe.png',
+  'team-2': 'https://iili.io/CehbasV.png'
+  }
 }
 
 export default function Team() {
@@ -30,7 +32,7 @@ export default function Team() {
             >
               <div className="relative aspect-[4/3] overflow-hidden">
                 <img
-                  src={`https://picsum.photos/seed/${imageSeeds[member.image]}/700/560`}
+                  src={imageSeeds[member.image]}
                   alt={`${member.name}, ${member.role}, smiling in clean teal scrubs`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
