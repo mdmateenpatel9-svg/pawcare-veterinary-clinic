@@ -91,7 +91,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="glass absolute -bottom-8 left-1/2 -translate-x-1/2 sm:left-auto sm:-right-6 sm:translate-x-0 rounded-3xl shadow-glow p-5 sm:p-6 w-[92%] sm:w-72 animate-float"
+            className="glass absolute -bottom-8 inset-x-4 sm:inset-x-auto sm:left-auto sm:-right-6 rounded-3xl shadow-glow p-4 sm:p-6 sm:w-72 animate-float"
           >
             <div className="grid grid-cols-2 gap-4">
               {heroStats.map((stat) => (
