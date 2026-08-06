@@ -113,7 +113,7 @@ export default function Hero() {
             className="hidden sm:flex absolute -top-6 -left-6 items-center gap-2 bg-white rounded-2xl shadow-soft px-4 py-3 animate-floatSlow"
           >
             <span className="w-2.5 h-2.5 rounded-full bg-accent-500 animate-pulse" />
-            <span className="text-xs font-semibold text-ink/70">Same-Day Slots Open</span>
+            <span className="text-xs font-semibold text-ink/70">Only 3 Same-Day Slots Left</span>
           </motion.div>
         </motion.div>
       </div>

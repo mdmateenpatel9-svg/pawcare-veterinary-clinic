@@ -15,7 +15,7 @@ export default function Services() {
         <SectionHeading
           eyebrow="What We Offer"
           title="Complete Veterinary Services Under One Roof"
-          description="From routine wellness checks to urgent surgical care, every service is delivered by the same trusted team your pet already knows."
+          description="From routine wellness checks to urgent surgical care, every service is delivered by the same trusted team your pet already knows. Most visits start at $45 - no hidden fees."
         />
 
         <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

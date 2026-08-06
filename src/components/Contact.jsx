@@ -44,6 +44,7 @@ export default function Contact() {
           description="Fill out the form and our team will confirm your slot within one business day — or call us directly for urgent care."
         />
 
+          <p className="text-center text-sm font-semibold text-accent-500 mt-6">12 appointments booked this week - same-day slots filling fast</p>
         <div className="mt-14 grid lg:grid-cols-5 gap-8">
           {/* Form */}
           <motion.div
@@ -166,6 +167,7 @@ export default function Contact() {
                     {status === 'sending' ? 'Sending...' : 'Request Appointment'}
                     <Send className="w-4 h-4" />
                   </button>
+                <p className="text-xs text-ink/50 mt-3">No credit card required - we will call to confirm your slot.</p>
                 </div>
               </form>
             )}
