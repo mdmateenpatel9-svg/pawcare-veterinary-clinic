@@ -19,7 +19,7 @@ export default function Facilities() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="lg:col-span-3 relative rounded-4xl overflow-hidden shadow-premium aspect-[16/11] lg:aspect-auto lg:h-full min-h-[340px]"
+            className="lg:col-span-3 relative rounded-4xl overflow-hidden shadow-premium aspect-[3/4] sm:aspect-[16/11] lg:aspect-auto lg:h-full min-h-[420px]"
           >
             <img
               src="https://cdn.postimage.me/2026/07/26/file_00000000b178820ea72a9f9278fb99b4.png"

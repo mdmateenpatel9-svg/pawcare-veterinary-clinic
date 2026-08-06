@@ -62,3 +62,8 @@
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-500 via-primary-600 to-secondary-500;
   }
 }
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
