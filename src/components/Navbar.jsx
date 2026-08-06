@@ -81,7 +81,7 @@ export default function Navbar() {
               exit={{ x: '100%' }}
               transition={{ type: 'tween', duration: 0.32, ease: 'easeOut' }}
               onClick={(e) => e.stopPropagation()}
-              className="absolute right-0 top-0 h-full w-[82%] max-w-sm bg-white shadow-2xl flex flex-col p-6"
+              className="absolute right-0 top-0 h-full w-[82%] max-w-sm shadow-2xl flex flex-col p-6 z-[70]" style={{ backgroundColor: '#ffffff', opacity: 1 }}
             >
               <div className="flex items-center justify-between mb-8">
                 <span className="font-display font-bold text-lg">
