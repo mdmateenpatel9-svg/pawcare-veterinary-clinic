@@ -1,14 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 import Hero from '../components/Hero.jsx'
-import About from '../components/About.jsx'
-import Services from '../components/Services.jsx'
 import WhyChooseUs from '../components/WhyChooseUs.jsx'
-import Team from '../components/Team.jsx'
-import Facilities from '../components/Facilities.jsx'
-import Testimonials from '../components/Testimonials.jsx'
-import FAQ from '../components/FAQ.jsx'
 import AppointmentCTA from '../components/AppointmentCTA.jsx'
-import Contact from '../components/Contact.jsx'
 
 export default function Home() {
   return (
@@ -22,15 +15,8 @@ export default function Home() {
       </Helmet>
 
       <Hero />
-      <About />
-      <Services />
       <WhyChooseUs />
-      <Team />
-      <Facilities />
-      <Testimonials />
-      <FAQ />
       <AppointmentCTA />
-      <Contact />
     </>
   )
 }

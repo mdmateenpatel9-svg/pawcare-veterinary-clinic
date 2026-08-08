@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import { Menu, X, PawPrint, Phone } from 'lucide-react'
 import { business, navLinks } from '../data/content.js'
 
@@ -25,24 +26,24 @@ export default function Navbar() {
       }`}
     >
       <nav className="container-px flex items-center justify-between max-w-7xl mx-auto">
-        <a href="#home" className="flex items-center gap-2.5 group" aria-label="PawCare home">
+        <Link to="/" className="flex items-center gap-2.5 group" aria-label="PawCare home">
           <span className="w-10 h-10 rounded-2xl bg-primary flex items-center justify-center shadow-premium group-hover:scale-105 transition-transform">
             <PawPrint className="w-5 h-5 text-white" strokeWidth={2.4} />
           </span>
           <span className="font-display font-bold text-lg sm:text-xl text-ink">
             Paw<span className="text-primary">Care</span>
           </span>
-        </a>
+        </Link>
 
         <ul className="hidden lg:flex items-center gap-8">
           {navLinks.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
+            <li key={link.path}>
+              <Link
+                to={link.path}
                 className="text-sm font-medium text-ink/70 hover:text-primary transition-colors relative after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all hover:after:w-full"
               >
                 {link.label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -52,9 +53,9 @@ export default function Navbar() {
             <Phone className="w-4 h-4" />
             {business.phone}
           </a>
-          <a href="#contact" className="btn-primary text-sm px-5 py-2.5">
+          <Link to="/contact" className="btn-primary text-sm px-5 py-2.5">
             Book Appointment
-          </a>
+          </Link>
         </div>
 
         <button
@@ -93,14 +94,14 @@ export default function Navbar() {
               </div>
               <ul className="flex flex-col gap-1">
                 {navLinks.map((link) => (
-                  <li key={link.href}>
-                    <a
-                      href={link.href}
+                  <li key={link.path}>
+                    <Link
+                      to={link.path}
                       onClick={() => setOpen(false)}
                       className="block py-3 px-3 rounded-xl text-base font-medium text-ink/80 hover:bg-primary-50 hover:text-primary transition-colors"
                     >
                       {link.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -109,9 +110,9 @@ export default function Navbar() {
                   <Phone className="w-4 h-4 text-primary" />
                   {business.phone}
                 </a>
-                <a href="#contact" onClick={() => setOpen(false)} className="btn-primary w-full">
+                <Link to="/contact" onClick={() => setOpen(false)} className="btn-primary w-full">
                   Book Appointment
-                </a>
+                </Link>
               </div>
             </motion.div>
           </motion.div>
