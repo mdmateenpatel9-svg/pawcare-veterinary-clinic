@@ -105,7 +105,7 @@ export default function Navbar() {
                   </li>
                 ))}
               </ul>
-              <div className="mt-auto flex flex-col gap-3">
+              <div className="mt-8 flex flex-col gap-3">
                 <a href={business.phoneHref} className="flex items-center gap-2 text-sm font-semibold text-ink/80">
                   <Phone className="w-4 h-4 text-primary" />
                   {business.phone}
